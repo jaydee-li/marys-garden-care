@@ -108,6 +108,7 @@
                             <div class="mx-auto p-4 w-full lg:w-8/12"> 
                                 <h2 class="leading-tight mb-2 text-3xl">Contact Me</h2> 
                                 <form name="contact" method="POST" netlify> 
+                                    <input type="hidden" name="form-name" value="contact">
                                     <input type="hidden" name="subject" value="Contact Me from Mary's Garden Care'"/>
                                     <div class="mb-6"> 
                                         <input class="appearance-none border-green-600 outline-hidden px-5 py-3 text-black w-full focus:shadow-lg" placeholder="Enter name..." type="text" name="name"/> 
@@ -120,7 +121,7 @@
                                     </div>                                     
                                     <button type="submit" class="bg-green-600 font-medium font-sans inline-block px-6 py-3 rounded-lg text-center w-full hover:bg-green-700">Send</button>                                     
                                 </form>                                 
-                            </div>                             
+                            </div>
                         </div>
                         <p class="text-center">Copyright &copy; <span><script>document.write(new Date().getFullYear())</script></span></p> 
                     </div>                     
